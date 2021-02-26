@@ -25,6 +25,7 @@ body{
 }
 
 input{
+    cursor: pointer;
     padding: 150px 50px;
     text-align: center;
     background-color: #263238;
@@ -52,3 +53,20 @@ a{
 a:hover{
     background-color:#c44545;
 }
+
+p#hover{
+    color: white;
+    position: relative;
+    font-size: 30px;
+}
+
+.hover-flex{
+    position: relative;
+    right: 30%;
+    z-index: 1;
+    bottom: 170px;
+}
+
+/* .center:hover .hover-flex{
+    opacity: 0;
+} */
