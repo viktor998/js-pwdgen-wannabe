@@ -28,5 +28,6 @@ function writeFunction(){
 
 
 function removerHOVER(){
-  hoverRM.remove();
+  hoverRM.style.opacity= "0";
+  // document.getElementById('hover').innerHRML = '';
 }

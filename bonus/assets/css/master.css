@@ -60,13 +60,21 @@ p#hover{
     font-size: 30px;
 }
 
-.hover-flex{
+
+
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    50% { transform: scale(0.85); }
+    to { transform: scale(1); }
+  }
+
+  .hover-flex {
     position: relative;
     right: 30%;
     z-index: 1;
-    bottom: 170px;
+    bottom: 180px;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-
-/* .center:hover .hover-flex{
-    opacity: 0;
-} */
